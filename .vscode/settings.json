@@ -1,0 +1,24 @@
+{
+  "workbench.colorCustomizations": {
+    "[Dark++ Italic]": {
+      "activityBar.background": "#111",
+      "editor.background": "#000",
+      "editorGroupHeader.tabsBackground": "#111",
+      "sideBar.background": "#000",
+      "sideBar.border": "#222",
+      "tab.inactiveForeground": "#bbb",
+      "tab.unfocusedInactiveBackground": "#222",
+      "window.activeBorder": "#000"
+    },
+    "[Default Dark+]": {
+      "activityBar.background": "#111",
+      "editor.background": "#000",
+      "editorGroupHeader.tabsBackground": "#111",
+      "sideBar.background": "#000",
+      "sideBar.border": "#222",
+      "tab.inactiveForeground": "#bbb",
+      "tab.unfocusedInactiveBackground": "#222",
+      "window.activeBorder": "#000"
+    }
+  }
+}

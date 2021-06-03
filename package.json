@@ -1,0 +1,51 @@
+{
+  "name": "tailwindcss-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "autoprefixer": "^10.2.6",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.3.0",
+    "postcss-loader": "^5.3.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "serve": "^11.3.2",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.4",
+    "ts-loader": "^9.2.2",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/mini-css-extract-plugin": "^1.4.3",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/tailwindcss": "^2.0.4",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.4",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "wait": "ls && sleep 10",
+    "dev": "webpack-cli serve --open --config webpack.dev.ts --hot --port 3001",
+    "build": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack --config webpack.prod.ts --progress",
+    "serve": "serve -s dist -l 3001",
+    "start": "npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "Sahin Deniz",
+  "license": "ISC"
+}
