@@ -39,7 +39,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "wait": "ls && sleep 10",
     "dev": "webpack-cli serve --open --config webpack.dev.ts --hot --port 3001",
     "build": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack --config webpack.prod.ts --progress",
     "serve": "serve -s dist -l 3001",

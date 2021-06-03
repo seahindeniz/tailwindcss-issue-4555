@@ -50,7 +50,6 @@ const webpackCommonConfig: Configuration = {
     }),
   ],
   output: {
-    // path: path.join(__dirname, '/dist'),
     path: path.resolve('./dist'),
     filename: '[name].[fullhash:8].js',
   },
